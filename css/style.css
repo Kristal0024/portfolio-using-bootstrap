@@ -111,3 +111,6 @@ body{
     padding: 0;
     margin-right: 15px;
 }
+#about-child{
+    height: 100vh;
+}
