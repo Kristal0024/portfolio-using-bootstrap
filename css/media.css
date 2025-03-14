@@ -3,3 +3,35 @@
         height: fit-content;
     }
 }
+@media only screen and (max-width:991px) and (min-width:769px){
+    .landing-img{
+        height: fit-content;
+    }
+    .landing-img img{
+       width: 50%;
+    }
+    #btn{
+        width: 70%;
+        height: 60px;
+    }
+    #about-child {
+        height: fit-content;
+    }
+    #cards-slot {
+        height: fit-content;
+    }
+    #contact{
+        
+    }
+    #cards{
+        margin-bottom: 20px;
+    }
+    #about-child{
+        border: 2px solid red;
+    }
+    #about-img{
+        border: 2px solid green;
+        display: flex;
+        justify-content: center;
+    }
+}

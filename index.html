@@ -37,8 +37,8 @@
         </div>
     </div>
         <div class="container">
-        <div class="row mt-md-4">
-            <div class="col-md-7 d-flex flex-column gap-md-4 gap-2 order-2 order-md-1" id="description">
+        <div class="row mt-lg-4">
+            <div class="col-lg-7 d-flex flex-column gap-md-4 gap-2 order-2 order-lg-1" id="description">
                 <h2 class="mt-5 fw-bold">Hello it’s me</h2>
                 <h2 class="fw-bold">Kristal Shrestha</h2>
                 <h2 class="fw-bold">i'am a frontend developer</h2>
@@ -52,24 +52,27 @@
                 <img class="fb-img" src="images/Component 4.png" alt="">
                 </div>
             </div>
-            <div class="col-md-5 px-0 landing-img d-flex order-1 order-md-2" >
+            <div class="col-lg-5 px-0 landing-img d-flex order-1 order-lg-2" >
                 <img class="m-auto" src="images/Glow 1.png" alt="Here is my image">
             </div>
         </div>
-        <div class="row px-md-0">
-            <div class="btn px-md-2"><button class="fw-bold" id="btn">Download CV</button></div>
+        <div class="row px-md-0 mt-3">
+            <div class="btn px-lg-2">
+                <button class="fw-bold btn" id="btn">Download CV</button>
+            </div>
         </div>
     </div>
    </div>
+   <!------------------------------- About ------------------------------>
    <div id="About">
     <div class="container" >
         <div class="row" id="about-child">
-            <div class="col-md-6 my-auto">
-                <img class="about-img" src="images/55.png" alt="">
+            <div class="col-lg-6 m-auto" id="about-img">
+                <img class="about-img " src="images/55.png" alt="">
             </div>
-            <div class="col-md-6 my-auto">
+            <div class="col-lg-6 my-auto">
                 <div id="description">
-                    <h1 class="pb-md-4">About Me</h1>
+                    <h1 class="pb-md-4 text-center text-lg-start">About Me</h1>
                     <p>Hi, I’m Kristal Shrestha, a passionate web designer and UI/Ux designer. I specialize in html, css and java Script and completed projects like portfolio and other web games.</p>
                     <p>My goal is to become a programmer and i am starting my journey as a web developer.</p>
                     <div class="btns pb-md-4">
@@ -85,43 +88,45 @@
         </div>
     </div>
 </div>
+<!------------------------------------ Service ------------------------------>
 <div id="service">
        <div class="container">
            <div class="row text-center">
                <h3 class="py-5">Our Services</h3>
            </div>
            <div class="row" id="cards-slot">
-               <div class="col-md-6 align-self-center" id="cards" >
+               <div class="col-lg-6 align-self-center" id="cards" >
                    <div class="card m-auto p-3 d-flex gap-3">
                        <img class="Brush" src="images/Vector.png" alt="">
                        <h4 class="text-center">UI-UX Designer</h4>
                        <p class="text-center">[Grab your reader’s attention with a great quote from the document or use this space to emphasize a key point. To place this text box anywhere on the page, just drag it.]</p>
-                       <button class="contact-btn">Contact Me</button>
+                       <button type="button" class="btn btn-primary mx-auto" id="contact-btn">Contact Me</button>
                    </div>
                </div>
-               <div class="col-md-6 align-self-center">
-                   <div class="card m-auto p-3 d-flex gap-3">
+               <div class="col-lg-6 align-self-center" id="">
+                   <div class="card mx-auto p-3 d-flex gap-3">
                        <img class="web" src="images/web.png" alt="">
                        <h4 class="text-center">Web Developer</h4>
                        <p id="para" class="text-center">[Grab your reader’s attention with a great quote from the document or use this space to emphasize a key point. To place this text box anywhere on the page, just drag it.]</p>
-                       <button class="contact-btn">Contact Me</button>
+                       <button type="button" class="btn btn-primary mx-auto" id="contact-btn">Contact Me</button>
                    </div>
                </div>
            </div>
        </div>
    </div>
+    <!------------------------------- Contact ------------------------------>
    <div id="contact">
-    <div class="container">
-     <div class="row">
-        <div class="col-md-5">
-            <h3>Contact Me</h3>
+    <div class="container" id="container">
+     <div class="row h-100" id="contact-page">
+        <div class="col-lg-5 offset-1 mx-auto d-flex flex-column justify-content-center align-items-center gap-md-5 py-3" id="row">
+            <h3 class="contact-head">Contact Me</h3>
             <div class="mail">
                 <img src="images/Gmail Logo.png" alt="">
-                <a href="mailto:kristalstha20@gmail.com">Kristalstha20@gmail.com</a>
+                <a class="text-decoration-none d-inline-block text-white" href="mailto:kristalstha20@gmail.com">Kristalstha20@gmail.com</a>
             </div>
             <div class="phone">
                 <img src="images/Call male.png" alt="">
-                <a href="tel:+977 9847526766">9847526766</a>
+                <a class="text-decoration-none text-white" href="tel:+977 9847526766">9847526766</a>
             </div>
             <div class="social-media d-flex gap-4">
                 <img class="fb-img" src="images/Component 6.png" alt="">
@@ -130,12 +135,14 @@
             <img class="fb-img" src="images/Component 4.png" alt="">
             </div>
         </div>
-        <div class="col-md-7">
-           <form action="">
-            <input type="text" id="name" name="name" placeholder="Your name"><br>
-            <input type="email" id="email" name="email" placeholder="Your Email">
-            <input type="text" id="message" name="message" placeholder="Your message">
-            <input type="submit">
+        <div class="col-lg-6 m-auto">
+           <form action="" class="">
+            <div class="form-group">
+                <input class="form-control mb-4" type="text" id="name" name="name" placeholder="Your name" required>
+                <input class="form-control mb-4" type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" class="form-control mb-4" placeholder="Message" id="message"></textarea>
+                <button type="submit" class="btn btn-primary" id="submit-btn">Submit</button>
+            </div>
            </form>
         </div>
      </div>
