@@ -1,13 +1,53 @@
 @media only screen and (max-width:768px){
     .landing-img{
         height: fit-content;
+        margin-top: 10%;
+    }
+    .landing-img img{
+        padding: 0;
+        width: 50%;
+    }
+    #description p {
+        font-size: 1rem;
+    }
+    #about-child {
+        height: fit-content;
+    }
+    #cards-slot {
+        height: fit-content;
+    }
+    #cards{
+        margin-bottom: 20px;
+    }
+    #about-img{
+        display: flex;
+        justify-content: center;
+    }
+    #About{
+        height: fit-content;
+    }
+    #service{
+        height: fit-content;
+    }
+    #contact{
+        height: fit-content;
+        margin-bottom: 30px;
+    }
+    #btn{
+        width: 70%;
+        height: 50px;
+    }
+    #container{
+        height: fit-content;
     }
 }
 @media only screen and (max-width:991px) and (min-width:769px){
     .landing-img{
+        margin-top: 10%;
         height: fit-content;
     }
     .landing-img img{
+        padding: 0;
        width: 50%;
     }
     #btn{
